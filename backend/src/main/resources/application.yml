@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    # БД живёт в памяти: при каждом перезапуске данные создаются заново
+    url: jdbc:h2:mem:testlab
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true          # в консоли видно SQL-запросы — полезно для QA
+  h2:
+    console:
+      enabled: true         # веб-консоль БД: http://localhost:8080/h2-console
