@@ -11,6 +11,7 @@ spring:
     hibernate:
       ddl-auto: create-drop
     show-sql: true          # в консоли видно SQL-запросы — полезно для QA
+    open-in-view: false     # запросы к БД только внутри сервисов (убирает WARN при старте)
   h2:
     console:
       enabled: true         # веб-консоль БД: http://localhost:8080/h2-console
