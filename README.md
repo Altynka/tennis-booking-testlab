@@ -1,5 +1,7 @@
 # Tennis Booking Testlab
 
+![CI](https://github.com/Altynka/tennis-booking-testlab/actions/workflows/ci.yml/badge.svg)
+
 Тестовый полигон: сервис бронирования теннисных кортов с намеренными багами
 и автотестами, которые эти баги находят.
 
